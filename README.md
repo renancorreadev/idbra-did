@@ -1,6 +1,6 @@
 # IDBRA DID - Sistema de Identidade Digital Descentralizada
 
-## 🎯 Visão Geral
+## 🎯 Visão Geral teste
 
 O IDBRA DID é um sistema completo de identidade digital descentralizada baseado em blockchain, implementando os padrões W3C DID (Decentralized Identifiers) e Verifiable Credentials. O sistema permite a emissão, verificação e revogação de credenciais digitais de forma segura e descentralizada.
 
@@ -9,12 +9,14 @@ O IDBRA DID é um sistema completo de identidade digital descentralizada baseado
 ### Microsserviços
 
 1. **🏦 Custody Service** (Porta 8082)
+
    - Gerenciamento de carteiras digitais
    - Interação com blockchain
    - Armazenamento seguro de chaves
    - Gestão de Status Lists
 
 2. **📝 Issuer API** (Porta 8083)
+
    - Emissão de credenciais verificáveis
    - Revogação de credenciais
    - Proxy para operações de custódia
@@ -37,3 +39,4 @@ O IDBRA DID é um sistema completo de identidade digital descentralizada baseado
 1. **Criar Carteira** (Custody Service)
    ```http
    POST /api/wallets
+   ```
